@@ -1,0 +1,19 @@
+#pragma once
+
+#define APP_NAME "DroneCAN-CH32V203"
+#define APP_NODE_ID_PREFERRED 73
+
+#define APP_CAN_BITRATE 1000000
+
+#define APP_CANARD_MEM_POOL_SIZE 4096
+
+#define APP_WS2812_LED_COUNT 6
+
+#define APP_FW_BASE 0x00000000u
+#define APP_FW_SIZE (64u * 1024u)
+
+// Version info
+#define APP_FW_VERSION_MAJOR 1
+#define APP_FW_VERSION_MINOR 0
+#define APP_HW_VERSION_MAJOR 1
+#define APP_HW_VERSION_MINOR 0
